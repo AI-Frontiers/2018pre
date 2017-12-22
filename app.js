@@ -8,7 +8,7 @@ app.set('view engine', 'pug')
 app.use(
   sassMiddleware({
     src: path.join(__dirname + '/source/scss'),
-    dest: path.join(__dirname + '/static'),
+    dest: path.join(__dirname + '/static/css'),
     debug: true,
     prefix: '/css'
   })

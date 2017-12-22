@@ -1,0 +1,30 @@
+.card {
+  margin-bottom: 40px;
+  border: none;
+  .card-body {
+    padding: 0;
+  }
+}
+
+.card#conference-preview {
+  height:150px;
+  overflow: hidden;
+  background-image: url('/images/city1.jpeg');
+  background-size: cover;
+  .card-body {
+    padding: 1.25rem;
+  }
+}
+
+.card#sponsors {
+  img {
+    height: 30px;
+    margin: 10px;
+  }
+}
+
+.card#conference-organizers {
+  .card-text {
+    padding-left: 10px;
+  }
+}
