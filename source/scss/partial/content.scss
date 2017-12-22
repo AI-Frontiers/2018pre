@@ -9,8 +9,14 @@
 .card#conference-preview {
   height:150px;
   overflow: hidden;
-  background-image: url('/images/city1.jpeg');
+  background-image: url('/images/bg-cropped.jpg');
   background-size: cover;
+  .card-title {
+    font-size: 2rem;
+  }
+  .card-text {
+    font-size: 1.1rem;
+  }
   .card-body {
     padding: 1.25rem;
   }

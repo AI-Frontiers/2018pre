@@ -1,2 +1,3 @@
 const pug = require('pug')
-pug.renderFile('views/index.pug', {})
+console.log(pug.renderFile('views/index.pug', {}))
+
